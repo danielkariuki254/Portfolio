@@ -1,0 +1,158 @@
+.btn.btn-success {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: green;
+  color: white;
+}
+
+.btn.btn-success:hover {
+  background-color: gray;
+  color: white;
+}
+
+.slide-in-name {
+  animation: slideInName 1.5s forwards;
+  opacity: 0;
+}
+@keyframes slideInName {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-about {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.5s ease, transform 5s ease;
+}
+
+.slide-in-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-in {
+  animation: slideIn 5s forwards;
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.schoolE {
+  animation: aboutSchoolE 3s forwards;
+  opacity: 0;
+
+  transform: translateX(-100%);
+}
+
+@keyframes aboutSchoolE {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.schoolK {
+  animation: aboutSchoolK 4s forwards;
+  opacity: 0;
+
+  transform: translateX(100%);
+}
+
+@keyframes aboutSchoolK {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.school {
+  animation: aboutSchool 2s forwards;
+  opacity: 0;
+
+  transform: translateX(-100%);
+}
+
+@keyframes aboutSchool {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.webDes {
+  animation: webdes 4s forwards;
+  opacity: 0;
+}
+
+@keyframes webdes {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.webDev {
+  animation: webdev 5s forwards;
+  opacity: 0;
+}
+
+@keyframes webdev {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.graphics {
+  animation: graphicsdes 6s forwards;
+  opacity: 0;
+}
+
+@keyframes graphicsdes {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
